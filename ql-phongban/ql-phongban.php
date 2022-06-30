@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Đăng Nhập</title>
-    <link rel="stylesheet" href="ql-trinhdo.css">
+    <link rel="stylesheet" href="ql-phongban.css">
 </head>
 
 <body>
@@ -30,9 +30,9 @@
         <table class="table" border="1">
             <tr class="tr1">
                 <td>STT</td>
-                <td>Mã trình độ</td>
-                <td>Tên trình độ</td>
-                <td>Mô tả trình độ</td>
+                <td>Mã phòng ban</td>
+                <td>Tên phòng ban</td>
+                <td>Mô tả phòng ban</td>
                 <td>Tùy chọn</td>
             </tr>
         </table>

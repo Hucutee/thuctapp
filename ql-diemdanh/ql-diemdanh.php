@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Đăng Nhập</title>
-    <link rel="stylesheet" href="ql-trinhdo.css">
+    <link rel="stylesheet" href="ql-diemdanh.css">
 </head>
 
 <body>
@@ -15,11 +15,11 @@
     </div>
     <div class="danhmuc">
         <img class="menu" src="Menu.png"/>
-        <p class="b1">Danh mục   >   Quản lý trình độ </p>
+        <p class="b1">Danh mục   >   Quản lý điểm danh </p>
     </div>
 
     <div class="danhsach">
-       <div> <p class="ds">Danh sách trình độ</p> 
+       <div> <p class="ds">Danh sách điểm danh</p> 
        <form  action="">
         <input class="av1" type="text" value="Tìm kiếm">
         <img class="av2" src="Slider.png" type="button">
@@ -30,24 +30,17 @@
         <table class="table" border="1">
             <tr class="tr1">
                 <td>STT</td>
-                <td>Mã trình độ</td>
-                <td>Tên trình độ</td>
-                <td>Mô tả trình độ</td>
-                <td>Tùy chọn</td>
+                <td>Mã điểm danh</td>
+                <td>Mã nhân viên</td>
+                <td>Ngày điểm danh</td>
+                <td>Giờ vào</td>
+                <td>Giờ ra</td>
+                <td>Trạng thái</td>
+                <td>tùy chọn</td>
             </tr>
         </table>
     </div>
-    <div class="them">
-        <p class="b2">Thêm trình độ mới</p>
-        <form class="form" >
-            <p class="f1">Tên trình độ</p>
-            <input class="f2" type="text">
-            <p class="f1">Mô tả trình độ</p>
-            <input class="f2" type="text">
-            <button class="btnn" >Cập nhật thông tin</button>
 
-        </form>
-    </div>
 
 
    
