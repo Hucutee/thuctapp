@@ -15,7 +15,7 @@
     </div>
     <div class="danhmuc">
         <img class="menu" src="Menu.png"/>
-        <p class="b1">Danh mục   >   Thông tin cá nhân </p>
+        <p class="b1">Danh mục   >   Quản lý chức vụ </p>
     </div>
 
     <div class="danhsach">
@@ -39,11 +39,13 @@
         </table>
     </div>
     <div class="them">
-        <p class="b2">Thêm trình độ mới</p>
+        <p class="b2">Thêm chức vụ mới</p>
         <form class="form" >
-            <p class="f1">Tên trình độ</p>
+            <p class="f1">Tên chức vụ</p>
             <input class="f2" type="text">
-            <p class="f1">Tên trình độ</p>
+            <p class="f1">Mã phòng ban</p>
+            <input class="f2" type="text">
+            <p class="f1">Hệ số lương </p>
             <input class="f2" type="text">
             <button class="btnn" >Cập nhật thông tin</button>
 
