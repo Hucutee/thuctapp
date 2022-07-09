@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./thongtincanhan.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <style>
+    * {
+      margin: 0;
+      font-family: sans-serif;
+    }
+  </style>
+  <title>Thông tin cá nhân</title>
+</head>
+
+<body>
+  <div class="header">
+    <div class="header__container">
+      <a href="" class="header__name">COMPANY</a>
+      <div class="header__account">
+        <h4 class="account__name">Nguyen Van A</h4>
+        <div class="avatar__border">
+          <i class="fa-regular fa-user avatar_icon"></i>
+        </div>
+      </div>
+    </div>
+    <div class="header__navbar" id="menu-btn">
+      <i class="fa-solid fa-bars navbar__item"></i>
+      <span class="navbar__title navbar__item">Danh mục <i class="fa-solid fa-chevron-right navbar__item"></i> <a
+          href="#" class="link__page navbar__item">Thông tin cá nhân</a></span>
+    </div>
+  </div>
+  <div class="container">
+    <div class="left">
+      <h1 class="left__job">Nhân viên bán hàng</h1>
+      <img src="./profile.png" alt="" class="left__img">
+      <div class="left__info">
+        <label for="maNV" class="info__label">Mã nhân viên:</label>
+        <input type="text" name="maNV" class="info__item" disabled value="NV001">
+        <label for="tenNV" class="info__label">Họ và tên:</label>
+        <input type="text" name="tenNV" class="info__item" disabled value="Nguyễn Văn A">
+        <label for="soCCCD" class="info__label">Số CCCD/CMT:</label>
+        <input type="text" name="soCCCD" class="info__item" disabled value="123456789">
+        <label for="gioiTinh" class="info__label">Giới tính:</label>
+        <input type="text" name="gioiTinh" class="info__item" disabled value="Nam">
+        <label for="ngaySinh" class="info__label">Ngày sinh:</label>
+        <input type="text" name="ngaySinh" class="info__item" disabled value="11/11/1991">
+        <label for="diachi" class="info__label">Địa chỉ:</label>
+        <textarea name="diachi" class="info__item" id=""
+          disabled>12/3B Hẻm AB, Đường C, Phường D, Quận E, Thành Phố F</textarea>
+        <label for=" soDT" class="info__label">Số điện thoại:</label>
+        <input type="text" name="soDT" class="info__item" disabled value="01234567899">
+        <label for="email" class="info__label">Email:</label>
+        <input type="text" name="email" class="info__item" disabled value="email@email.com">
+      </div>
+    </div>
+    <div class="right">
+      <h3 class="right__title">Cập nhật thông tin cá nhân</h3>
+      <div class="right__container">
+        <form action="" method="post" class="container__form">
+          <label for="soCCCD" class="info__label">Số CCCD/CMT:</label>
+          <input type="text" name="soCCCD" class="info__item" value="123456789">
+          <label for="gioiTinh" class="info__label">Giới tính:</label>
+          <input type="text" name="gioiTinh" class="info__item" value="Nam">
+          <label for="ngaySinh" class="info__label">Ngày sinh:</label>
+          <input type="text" name="ngaySinh" class="info__item" value="11/11/1991">
+          <label for="diachi" class="info__label">Địa chỉ:</label>
+          <textarea name="diachi" class="info__item"
+            id="">12/3B Hẻm AB, Đường C, Phường D, Quận E, Thành Phố F</textarea>
+          <label for=" soDT" class="info__label">Số điện thoại:</label>
+          <input type="text" name="soDT" class="info__item" value="01234567899">
+          <label for="email" class="info__label">Email:</label>
+          <input type="text" name="email" class="info__item" value="email@email.com">
+          <button type="submit" class="info__btn">Cập nhật</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="left-menu" id="menu-left">
+    <div class="menu__header" id="menu-left-btn">
+      <i class="fa-solid fa-bars"></i>
+      <span class="header__title">Danh mục</span>
+    </div>
+    <div class="account-status">
+      <span class="name-account">Nguyen Van A</span>
+      <span class="status">Online</span>
+    </div>
+    <ul class="menu__list">
+      <li class="list__item">
+        <div class="item__left">
+          <i class="fa-solid fa-user avatar_icon"></i>
+          <a href="#" class="left__title">Thông tin cá nhân</a>
+        </div>
+        <i class="fa-solid fa-chevron-right item__right"></i>
+      </li>
+      <li class="list__item">
+        <div class="item__left">
+          <i class="fa-solid fa-address-card"></i>
+          <a href="#" class="left__title">Nhân viên</a>
+        </div>
+        <i class="fa-solid fa-chevron-right item__right"></i>
+      </li>
+      <li class="list__item">
+        <div class="item__left">
+          <i class="fa-solid fa-square-check"></i>
+          <a href="#" class="left__title">Điểm danh</a>
+        </div>
+        <i class="fa-solid fa-chevron-right item__right"></i>
+      </li>
+      <li class="list__item">
+        <div class="item__left">
+          <i class="fa-solid fa-building"></i>
+          <a href="#" class="left__title">Phòng ban</a>
+        </div>
+        <i class="fa-solid fa-chevron-right item__right"></i>
+      </li>
+
+      <li class="list__item">
+        <div class="item__left">
+          <i class="fa-solid fa-bullseye"></i>
+          <a href="#" class="left__title">KPI</a>
+        </div>
+        <i class="fa-solid fa-chevron-right item__right"></i>
+      </li>
+      <li class="list__item">
+        <div class="item__left">
+          <i class="fa-solid fa-money-check-dollar"></i>
+          <a href="#" class="left__title">Lương</a>
+        </div>
+        <i class="fa-solid fa-chevron-right item__right"></i>
+      </li>
+
+      <li class="list__item">
+        <div class="item__left">
+          <i class="fa-solid fa-ranking-star"></i>
+          <a href="#" class="left__title">Khen thưởng - Kỷ luật</a>
+        </div>
+        <i class="fa-solid fa-chevron-right item__right"></i>
+      </li>
+      <li class="list__item">
+        <div class="item__left">
+          <i class="fa-solid fa-right-from-bracket"></i>
+          <a href="#" class="left__title">Đăng xuất</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <script src="./thongtincanhan.js"></script>
+</body>
+
+</html>

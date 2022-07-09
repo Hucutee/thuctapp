@@ -1,0 +1,227 @@
+.header{
+  width: 100%;
+
+  background-color: white;
+  display: flex;
+  align-items: flex-start;
+  color:#77AB82;
+  flex-direction: column;
+}
+.header__container{
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color:#77AB82;
+}
+.header__name{
+  margin: 0 0 0 20px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 28px;
+  font-weight: 700;
+  color:#77AB82;
+}
+.header__account{
+  display: flex;
+  align-items: center;
+  margin: 0 20px 0 0;
+}
+.account__name{
+  margin-right: 20px;
+  cursor: pointer;
+}
+.avatar__border{
+  width: 28px;
+  height: 28px;
+  border: 2px solid #77AB82;
+  border-radius: 50%;
+  display: flex;
+  cursor: pointer;
+}
+.avatar_icon{
+  margin: auto;
+  font-weight: 700;
+}
+.header__navbar{
+  width: 100%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 500;
+}
+.navbar__title{
+  cursor: pointer;
+}
+.navbar__item{
+  margin-left: 20px;
+  cursor: pointer;
+}
+.link__page{
+  text-decoration: none;
+  color: #77AB82;
+}
+.left-menu{
+  width: 400px;
+  background-color: #F5F5F5;
+  position: absolute;
+  top: 70px;
+  left: -600px;
+  font-size: 18px;
+  font-weight: 500;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  transition: all ease-out 0.3s;
+  
+  }
+  .menu__header{
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  padding: 10px 20px;
+  font-weight: 500;
+  background-color: #585858;
+  border-top-right-radius: 5px;
+  }
+  .header__title{
+    margin-left: 20px;
+  }
+  .account-status{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    font-weight: 600;
+    color: #00a724;
+    margin-bottom: 10px;
+  }
+  .name-account{
+    margin-left: 20px;
+  }
+  .status{
+    margin-right: 20px;
+    position: relative;
+  
+  }
+  .status::before{
+    position: absolute;
+    content: "";
+    left: -30px;
+    height: 18px;
+    width: 18px;
+    background-color:#00a724;
+    border-radius: 50%;
+  }
+  .menu__list{
+    list-style: none;
+    color: #585858;
+    padding-left: 0;
+  }
+  .list__item{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 20px;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: all ease-out 0.2s;
+  }
+  .list__item:hover{
+  background-color:#585858;
+  color: white;
+  }
+  .list__item:hover .left__title{
+    color: white;
+  }
+  .item__left{
+    font-weight: 600;
+  }
+  .left__title{
+    margin-left: 20px;
+    text-decoration: none;
+    color: #585858;
+  }
+  .item__right{
+    margin-right: 20px;
+  }
+  .container{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    height: calc(100vh - 110px);
+  }
+  .left{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    background-color: #F5F5F5;
+  }
+  .left__job{
+    font-size: 20px;
+    margin: 20px 20px;
+    color: #585858;
+  }
+  .left__info{
+    display: flex;
+    flex-direction: column;
+  }
+  .left__img{
+    width: 200px;
+  }
+  .info__label{
+    font-weight: 600;
+    margin: 5px 0;
+    display: inline-flex;
+  }
+  .info__item{
+    width: 300px;
+    height: 30px;
+    border: 1px solid #b6b6b6;
+    border-radius: 5px;
+    padding-right: 10px;
+    text-align: right;
+
+  }
+  .right{
+    flex: 3;
+    align-self: start;
+    justify-content: center;
+  }
+  .right__title{
+    height: 100%;
+    margin: 20px;
+    font-size: 26px;
+    text-align: center;
+    color: #585858;
+  }
+  .right__container{
+    width: 100%;
+    height: calc(100vh - 200px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .container__form{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+  }
+  .info__btn{
+    cursor: pointer;
+    margin-top: 20px;
+    background-color: #77AB82;
+    height: 40px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+  }
